@@ -21,7 +21,7 @@ let myserver = myhttp.createServer(
     // writeHead() creates an http response header, including the status code (200 0k), the content type
     myresponse.writeHead( 200, { "Content-Type": "text/plain" } );
 
-    myresponse.end( "Hello world! ");
+    myresponse.end( mytext);
   }
 );
 
